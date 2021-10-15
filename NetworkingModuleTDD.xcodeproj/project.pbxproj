@@ -14,9 +14,10 @@
 		948B1C0C27191E7300924BCA /* NetworkingModuleTDD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 948B1C0A27191E7300924BCA /* NetworkingModuleTDD.xcdatamodeld */; };
 		948B1C0E27191E7800924BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948B1C0D27191E7800924BCA /* Assets.xcassets */; };
 		948B1C1127191E7800924BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948B1C0F27191E7800924BCA /* LaunchScreen.storyboard */; };
-		948B1C1C27191E7800924BCA /* NetworkingModuleTDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B1C1B27191E7800924BCA /* NetworkingModuleTDDTests.swift */; };
+		948B1C1C27191E7800924BCA /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B1C1B27191E7800924BCA /* RemoteFeedLoaderTests.swift */; };
 		948B1C2727191E7900924BCA /* NetworkingModuleTDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B1C2627191E7900924BCA /* NetworkingModuleTDDUITests.swift */; };
 		948B1C3527199F6F00924BCA /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B1C3427199F6F00924BCA /* FeedItem.swift */; };
+		948B1C382719A71100924BCA /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B1C372719A71100924BCA /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +48,13 @@
 		948B1C1027191E7800924BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		948B1C1227191E7800924BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		948B1C1727191E7800924BCA /* NetworkingModuleTDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingModuleTDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		948B1C1B27191E7800924BCA /* NetworkingModuleTDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingModuleTDDTests.swift; sourceTree = "<group>"; };
+		948B1C1B27191E7800924BCA /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		948B1C1D27191E7800924BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		948B1C2227191E7900924BCA /* NetworkingModuleTDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingModuleTDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		948B1C2627191E7900924BCA /* NetworkingModuleTDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingModuleTDDUITests.swift; sourceTree = "<group>"; };
 		948B1C2827191E7900924BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		948B1C3427199F6F00924BCA /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		948B1C372719A71100924BCA /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,7 @@
 			children = (
 				948B1C3627199F9600924BCA /* Other */,
 				948B1C1227191E7800924BCA /* Info.plist */,
-				948B1C3427199F6F00924BCA /* FeedItem.swift */,
+				948B1C392719B28700924BCA /* Feed Feature */,
 			);
 			path = NetworkingModuleTDD;
 			sourceTree = "<group>";
@@ -113,7 +115,7 @@
 		948B1C1A27191E7800924BCA /* NetworkingModuleTDDTests */ = {
 			isa = PBXGroup;
 			children = (
-				948B1C1B27191E7800924BCA /* NetworkingModuleTDDTests.swift */,
+				948B1C1B27191E7800924BCA /* RemoteFeedLoaderTests.swift */,
 				948B1C1D27191E7800924BCA /* Info.plist */,
 			);
 			path = NetworkingModuleTDDTests;
@@ -140,6 +142,15 @@
 				948B1C0A27191E7300924BCA /* NetworkingModuleTDD.xcdatamodeld */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		948B1C392719B28700924BCA /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				948B1C3427199F6F00924BCA /* FeedItem.swift */,
+				948B1C372719A71100924BCA /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948B1C382719A71100924BCA /* FeedLoader.swift in Sources */,
 				948B1C0627191E7300924BCA /* ViewController.swift in Sources */,
 				948B1C0C27191E7300924BCA /* NetworkingModuleTDD.xcdatamodeld in Sources */,
 				948B1C0227191E7300924BCA /* AppDelegate.swift in Sources */,
@@ -284,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				948B1C1C27191E7800924BCA /* NetworkingModuleTDDTests.swift in Sources */,
+				948B1C1C27191E7800924BCA /* RemoteFeedLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,10 +511,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				PRODUCT_BUNDLE_IDENTIFIER = practice.NetworkingModuleTDDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkingModuleTDD.app/NetworkingModuleTDD";
 			};
 			name = Debug;
@@ -521,10 +534,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				PRODUCT_BUNDLE_IDENTIFIER = practice.NetworkingModuleTDDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkingModuleTDD.app/NetworkingModuleTDD";
 			};
 			name = Release;
