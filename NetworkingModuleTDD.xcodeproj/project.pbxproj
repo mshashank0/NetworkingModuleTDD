@@ -19,6 +19,8 @@
 		948B1C3527199F6F00924BCA /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B1C3427199F6F00924BCA /* FeedItem.swift */; };
 		948B1C382719A71100924BCA /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B1C372719A71100924BCA /* FeedLoader.swift */; };
 		948B1C3D2719C29E00924BCA /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B1C3C2719C29E00924BCA /* RemoteFeedLoader.swift */; };
+		948B1C3F271AFBED00924BCA /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B1C3E271AFBEC00924BCA /* HTTPClient.swift */; };
+		948B1C41271AFC6600924BCA /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B1C40271AFC6600924BCA /* FeedItemsMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		948B1C3427199F6F00924BCA /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		948B1C372719A71100924BCA /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		948B1C3C2719C29E00924BCA /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		948B1C3E271AFBEC00924BCA /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		948B1C40271AFC6600924BCA /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				948B1C3C2719C29E00924BCA /* RemoteFeedLoader.swift */,
+				948B1C3E271AFBEC00924BCA /* HTTPClient.swift */,
+				948B1C40271AFC6600924BCA /* FeedItemsMapper.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -296,6 +302,8 @@
 			files = (
 				948B1C382719A71100924BCA /* FeedLoader.swift in Sources */,
 				948B1C3D2719C29E00924BCA /* RemoteFeedLoader.swift in Sources */,
+				948B1C3F271AFBED00924BCA /* HTTPClient.swift in Sources */,
+				948B1C41271AFC6600924BCA /* FeedItemsMapper.swift in Sources */,
 				948B1C0627191E7300924BCA /* ViewController.swift in Sources */,
 				948B1C0C27191E7300924BCA /* NetworkingModuleTDD.xcdatamodeld in Sources */,
 				948B1C0227191E7300924BCA /* AppDelegate.swift in Sources */,
