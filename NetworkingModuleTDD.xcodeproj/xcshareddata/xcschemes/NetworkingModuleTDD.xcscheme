@@ -48,6 +48,16 @@
                ReferencedContainer = "container:NetworkingModuleTDD.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "948B1C4D271C438000924BCA"
+               BuildableName = "NetworkingModuleTDDEndToEndTests.xctest"
+               BlueprintName = "NetworkingModuleTDDEndToEndTests"
+               ReferencedContainer = "container:NetworkingModuleTDD.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
