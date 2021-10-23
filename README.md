@@ -1,4 +1,7 @@
-Swift, modular design, dependency injection, dependency inversion, TDD, Protocol based mocking
+**Modular design, dependency injection, dependency inversion, Unit testing, TDD, Protocol based mocking**
+
+**End to End API Unit test
+Network Mocking Unit test**
 
 # Feed App – Image Feed Feature
 
