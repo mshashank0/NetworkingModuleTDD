@@ -1,14 +1,9 @@
-**Modular design, dependency injection, dependency inversion, Unit testing, TDD, Protocol based mocking**
+# Modular design, dependency injection, dependency inversion, Unit testing, TDD, Protocol based mocking
 
-**End to End API Unit test
-Network Mocking Unit test**
+## End to End API Unit test
+## Network Mocking Unit test
 
-# Feed App – Image Feed Feature
-
-[![Build Status](https://travis-ci.com/essentialdevelopercom/essential-feed-case-study.svg?branch=master)](https://travis-ci.com/essentialdevelopercom/essential-feed-case-study)
-
-## BDD Specs
-
+----------------------------------------------------
 ### Story: Customer requests to see their image feed
 
 ### Narrative #1
@@ -118,55 +113,3 @@ Given the customer doesn't have connectivity
 1. System delivers error.
 
 
-## Flowchart
-
-![Feed Loading Feature](feed_flowchart.png)
-
-## Architecture
-
-![Feed Loading Feature](feed_architecture.png)
-
-## Model Specs
-
-### Feed Item
-
-| Property      | Type                |
-|---------------|---------------------|
-| `id`          | `UUID`              |
-| `description` | `String` (optional) |
-| `location`    | `String` (optional) |
-| `imageURL`    | `URL`               |
-
-### Payload contract
-
-```
-GET *url* (TBD)
-
-200 RESPONSE
-
-{
-	"items": [
-		{
-			"id": "a UUID",
-			"description": "a description",
-			"location": "a location",
-			"image": "https://a-image.url",
-		},
-		{
-			"id": "another UUID",
-			"description": "another description",
-			"image": "https://another-image.url"
-		},
-		{
-			"id": "even another UUID",
-			"location": "even another location",
-			"image": "https://even-another-image.url"
-		},
-		{
-			"id": "yet another UUID",
-			"image": "https://yet-another-image.url"
-		}
-		...
-	]
-}
-```
